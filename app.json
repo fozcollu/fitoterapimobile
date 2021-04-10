@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "FitoTerapiMobile",
-    "slug": "FitoTerapiMobile",
+    "name": "Fito Terapi",
+    "slug": "fitoTerapiMobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,13 +13,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "www.yorevital.com",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "www.yorevital.com",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
